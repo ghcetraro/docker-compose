@@ -1,0 +1,27 @@
+-- Run an create
+
+docker-compose up .
+
+-- Saw docker
+
+docker image ls
+
+-- Run
+
+docker-compose up
+
+-- Run desatach
+
+docker-compose up -d
+
+-- The docker-compose run command allows you to run one-off commands for your services
+
+docker-compose run web env
+
+-- 
+
+docker-compose stop
+
+-- You can bring everything down
+
+docker-compose down --volumes
